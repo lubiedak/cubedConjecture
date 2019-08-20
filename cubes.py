@@ -1,4 +1,4 @@
-n = 100
+n = 200
 results=set()
 separator=', '
 trivial=[1,8,27,64]
@@ -12,3 +12,4 @@ for i in range(-n,n):
         results.add(str(val) + "=" + separator.join(factorsStr))
 
 print(sorted(results))
+print(len(results))
