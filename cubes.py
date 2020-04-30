@@ -1,7 +1,7 @@
 n = 200
 results=set()
 separator=', '
-trivial=[1,8,27,64]
+trivial=[1,8,27,64,125,216]
 for i in range(-n,n):
   for j in range(-n,n):
     for k in range(-n,n):
